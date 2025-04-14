@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: animal-website-content
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Farm Animals</title>
+      <style>
+        .animal-tag {
+          display: inline-block;
+          background: #f0f0f0;
+          padding: 8px 12px;
+          margin: 5px;
+          border-radius: 20px;
+          font-family: sans-serif;
+        }
+        .cow { background: #d4f1f9; }
+        .pig { background: #ffd6e0; }
+        .chicken { background: #fff2cc; }
+        .sheep { background: #e2f0d9; }
+      </style>
+    </head>
+    <body>
+      <h1>Farm Animal Tags</h1>
+      <div class="animal-tag cow">Cow</div>
+      <div class="animal-tag pig">Pig</div>
+      <div class="animal-tag chicken"> Chicken</div>
+      <div class="animal-tag sheep"> Sheep</div>
+    </body>
+    </html>
