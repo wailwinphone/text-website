@@ -25,9 +25,9 @@ data:
     </head>
     <body>
       <h1>Farm Animal Tags</h1>
-      <div class="animal-tag cow">Cow</div>
-      <div class="animal-tag pig">Pig</div>
-      <div class="animal-tag chicken"> Chicken</div>
-      <div class="animal-tag sheep"> Sheep</div>
+      <div class="animal-tag cow">Cows</div>
+      <div class="animal-tag pig">Pigs</div>
+      <div class="animal-tag chicken"> Chickens</div>
+      <div class="animal-tag sheep"> Sheeps</div>
     </body>
     </html>
