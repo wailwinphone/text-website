@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: animal-website
+  name: farm-website
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: animal-website
+      app: farm-website
   template:
     metadata:
       labels:
-        app: animal-website
+        app: farm-website
     spec:
       containers:
       - name: nginx
@@ -23,4 +23,4 @@ spec:
       volumes:
       - name: website-content
         configMap:
-          name: animal-website-content
+          name: farm-website-content

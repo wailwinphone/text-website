@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: animal-website
+  name: farm-website
 spec:
   selector:
-    app: animal-website
+    app: farm-website
   ports:
     - protocol: TCP
       port: 80        # Service port (cluster-internal)

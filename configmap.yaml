@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: animal-website-content
+  name: farm-website-content
 data:
   index.html: |
     <!DOCTYPE html>
